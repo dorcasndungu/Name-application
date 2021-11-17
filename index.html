@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ghanian names web application</title>
+    <script src="nameapp.js"></script>
+    <link href="css/my.css"rel="stylesheet"type="text/css" media="all">
+    <link href="css/bootstrap.css"rel="stylesheet"type="text/css" media="all">
+    <style>
+      body {
+        background-image: url("images/_ (1).jpeg");
+      }
+    </style>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="container">
+      <div class="box-1">
+        <h1><em>Akan name generator</em></h1>
+        <h4>This application makes use of your birthdate.<br>These are the expected results depending on your gender;</h4>
+        <h5><em>Male names:</em></h5>
+        <p>Kwasi,Kwadwo,Kwabena,Kwaku,Yaw,Kofi,Kwame</p>
+        <h5><em>Female names:</em></h5>
+        <p>Akosua,Adwoa,Abenaa,Akua, Yaa,Afua,Ama</p>
+      </div>
+      <div class="box-2">
+        <form >
+          <label for="enter">Enter birth date:</label><br>
+          <label for="yr">Year:</label><br>
+          <input type="text" placeholder="YYYY" id="year" name="year"><br>
+          <p id="yearerror"></p><br>
+          <label for="month">Month:</label><br>
+          <input type="text" placeholder="MM" id="month" name="month"><br>
+          <p id="montherror"></p><br>
+          <label for="day">Day:</label><br>
+          <input type="text" placeholder="DD" id="day" name="day">
+          <p id="dayerror"></p>
+        </form>
+        <form class="f1">
+          <h4>Choose your gender:</h4><br>
+          <input type="radio" id="male" name="human" value="male">
+          <label for="male">Male</label><br>
+          <input type="radio" id="female" name="human" value="female">
+          <label for="male">Female</label>
+          <p id="radio-error"></p>
+        </form>
+        <input type="button" value="Generate"  onclick="doFunction();"/>
+      </div>
+    </div>
+  </body>
+</html>     
+  
+
+        
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+  
