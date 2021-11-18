@@ -1,17 +1,22 @@
 # My Portfolio
-#### This is my landing page with a list of all the projects l have undertaken, 11/11/2021
+#### This is the Akan name generator.
 #### By **Dorcas Mwihaki**
 ## Description
-This is a simple webpage with information about my projects which are mostly creating websites.
+This is an application that generates Akan names after a gender and birthdate is keyed in.
+
+**Author's information**
+
+l am a software development student at Moringa School.l have been learning JS,CSS HTML and making websites.
 ## Setup/Installation Requirements
-* Clone the repo :{git clone https://github.com/dorcasndungu/updated-portfolio-landing-page.git
+* Clone the repo :{git clone https://github.com/dorcasndungu/Name-application.git
 * No server or dependencies needed to run the code.
+* Find my script in the repository.
 ## Live link
 https://dorcasndungu.github.io/updated-portfolio-landing-page/
 ## Known Bugs
-The photos in the links l have provided may take some time to load.
+A name might not generate when you give an invalid date or live a space empty,whenever that happens make sure to look through your answers and if nothing is wrong,refresh the page.
 ## Technologies Used
-This project has been written in HTML and CSS.
+This project has been written in HTML,CSS and Javascript.
 ## Support and contact details
 You are free to contribute and make adjustments .Do not hesitate to reach out in case of any enquiries,my details are in my bio.
 ### License
