@@ -4,16 +4,15 @@
   margin-bottom: 0px;
   display:inline flex;
   flex-direction: column;
-  justify-content: space-between;
-  padding: auto;
+  justify-content:space-between;
+  padding:auto;
+  font-weight: bolder;
 }
 
 
 
 h1{
-  
   color: rgb(211, 157, 9);
-  
   padding: 10px;
   margin: 0px;
   font-size:400px;
