@@ -13,6 +13,9 @@
 }
 .box-2{
   padding-left: 25px;
+  margin-top: 20px;
+  font-size: 20px;
+  color:rgb(219, 182, 136) ;
 }
 
 
@@ -23,12 +26,13 @@ h1{
   font-size:90px;
   font-family:Georgia, 'Times New Roman', Times, serif;
   text-align: center;
+  margin-bottom: 0px;
 }
 h4{
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   margin-bottom: 0px;
-  color:rgb(216, 154, 79);
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  color:rgb(255, 140, 0);
+  font-size: 20px;
 }
 
 h5{
@@ -36,15 +40,17 @@ h5{
   border: 0px  ;
   margin: 0px;
   font-size:20px;
-  font-family:serif;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: rgb(211, 157, 9);
 }
 p{
   padding: 0px;
   border: 0px  ;
   margin: 0px;
-  font-weight:normal;
+  font-weight:bold;
   font-family:cursive;
-  color:rgb(216, 154, 79) ;
+  color:rgb(219, 182, 136) ;
+
 }
 h2{
   color: beige;
@@ -52,4 +58,20 @@ h2{
   font-size: 40px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+.generate{
+  display: block;
+  width: 100%;
+  border: none;
+  background-color:orange;
+  padding: 14px 28px;
+  font-size: 20px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 12px;
+}
+.generate:hover {background: rgb(224, 85, 20);}
+.space-out{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
